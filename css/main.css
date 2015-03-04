@@ -9,6 +9,9 @@ div.prompt-container {
     font-weight: bold;
     font-family: "Andale Mono", monospace;
 }
+span#prompt-input {
+    outline: none;
+}
 
 span.prompt:after {
     content: ">";
