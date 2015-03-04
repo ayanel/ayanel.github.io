@@ -7,7 +7,7 @@
 div.prompt-container {
     font-size: 3em;
     font-weight: bold;
-    font-family: "Andale Mono" "monospace";
+    font-family: "Andale Mono", monospace;
 }
 
 span.prompt:after {
@@ -29,6 +29,20 @@ span.prompt:after {
         visibility: hidden;
     }
 }
+@-moz-keyframes xxxx {
+    0% {
+        visibility: inherit;
+    }
+    49% {
+        visibility: inherit;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
 span#prompt-cursor {
     -webkit-animation-name: xxxx;
     -webkit-animation-duration: 1s;
@@ -36,4 +50,10 @@ span#prompt-cursor {
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
+    -moz-animation-name: xxxx;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -moz-animation-play-state: running;
 }
