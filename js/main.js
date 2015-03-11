@@ -21,6 +21,8 @@ Ayanel.controller = function(src) {
         return new Ayanel.color(src, m[1], m[2]);
     case "rotate":
         return new Ayanel.rotate(src, m[1], m[2]);
+    case "size":
+        return new Ayanel.size(src, m[1], m[2]);
     default:
         return new Ayanel.nothing();
     }
@@ -64,6 +66,10 @@ Ayanel.rotate = function(src, key, val) {
             },
         });
     };
+};
+Ayanel.size = function(src, key, val) {
+    this.val = val;
+    $('body').css({zoom: this.val});
 };
 Ayanel.nothing = function() {
     Ayanel.nothing.prototype.exec = function() {};
