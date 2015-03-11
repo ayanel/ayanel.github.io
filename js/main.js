@@ -23,6 +23,8 @@ Ayanel.controller = function(src) {
         return new Ayanel.rotate(src, m[1], m[2]);
     case "size":
         return new Ayanel.size(src, m[1], m[2]);
+    case "die":
+        return new Ayanel.die(src, m[1], m[2]);
     default:
         return new Ayanel.nothing();
     }
@@ -70,6 +72,23 @@ Ayanel.rotate = function(src, key, val) {
 Ayanel.size = function(src, key, val) {
     this.val = val;
     $('body').css({zoom: this.val});
+};
+Ayanel.die = function(src, key, val) {
+    var id;
+    var end = function() {
+        $('html').css({backgroundColor:'blue', color: 'white', fontFamily:'Courier'})
+        setTimeout(function() {
+            $('html').html('<body><span>You computer will be destroyed in a few second.</span></body>');
+        });
+    };
+    id = setInterval(function() {
+        var contents = $('body').html(); console.log(contents.length);
+        if (contents.length < 10) {
+            clearInterval(id);
+            end();
+        }
+        $('body').html(contents.slice(0, length - 90));
+    }, 80);
 };
 Ayanel.nothing = function() {
     Ayanel.nothing.prototype.exec = function() {};
