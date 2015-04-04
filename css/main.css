@@ -63,3 +63,14 @@ span#prompt-cursor {
     -moz-animation-direction: alternate;
     -moz-animation-play-state: running;
 }
+
+ul.member-profile-social {
+    list-style: none;
+}
+ul.member-profile-social>li {
+    float: left;
+    margin-right: 8px;
+}
+ul.member-profile-social>li>a>img {
+    width: 14px;
+}
