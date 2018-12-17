@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
+title: About "Ayanel & Company"
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Products
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- Biological software development
+  - with adhoc specification.
+  - with continuous feedbacks and software supports.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# Contact
 
-
-[jekyll-organization]: https://github.com/jekyll
+- Email: otiai10@ayanel.com （代表 落合）
+- Tell: 080-6531-7218 （代表 落合）
+- Address: 〒150-0013 東京都渋谷区恵比寿4-5-28 恵比寿ガーデン607

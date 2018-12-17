@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ayanel & Company is a software company for bio-informatics, sports and cultures.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ayanel.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: otiai10
+# twitter_username: otiai10
 github_username:  otiai10
 
 # Build settings
