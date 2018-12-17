@@ -17,10 +17,11 @@ title: Ayanel & Company
 email: otiai10@ayanel.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ayanel & Company is a software company for bio-informatics, sports and cultures.
+  Ayanel & Co. は、佐倉綾音さんを心から応援しています！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ayanel.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: otiai10
-github_username:  otiai10
+github_username:  ayanel
 
 # Build settings
 markdown: kramdown
